@@ -1,0 +1,15 @@
+# This file will prevent temp files from apearing to git
+*#
+*~
+*.class
+*.pyc
+*.py~
+*.o
+*.swp
+*.exe
+.nfs*
+a.out
+*.sublime-*
+
+# repo specific
+*.app
