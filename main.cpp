@@ -4,8 +4,8 @@
 // prototypes
 
 int main(){
-	vInt z (DIMENSION, 1);
-	vector<vInt> y (DIMENSION, z);
+	cVector z (DIMENSION, '1');
+	vector<cVector> y (DIMENSION, z);
 	int map [DIMENSION][DIMENSION] = {{3, 7, 5}, {3, 7, 5}, {3, 7, 5}, {3, 7, 5}};
 	Map m;
 	
@@ -14,7 +14,7 @@ int main(){
 	cout << "y: " << y[0].size() << endl;
 	
 	
-	cout << "map: " << (sizeof (map) / sizeof (int)) << endl;
+	cout << "map: " << (sizeof (map[0]) / sizeof (int)) << endl;
 	cout << "*map: " << map[0][3] << endl;
 	
 	

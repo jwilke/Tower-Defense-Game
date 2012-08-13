@@ -2,9 +2,11 @@ Collaborators:
 Jacob L. Wilke
 Ian Buitrago
 
-
 This is a simple tower defense game.
 
+
+run with:
+source build.sh
 
 <insert ideas here>
 Text file levels?
